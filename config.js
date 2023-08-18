@@ -1,10 +1,10 @@
 module.exports = {
-TOKEN: "",
-ownerID: [""], //write your discord user id. example: ["id"] or ["id1","id2"]
+TOKEN: "OTM1MTIxMjQzNzA1ODQzNzcy.GHhz99.ndbbkz61T5He-DKwDWh0oJChh4BCv51EKanH5Y",
+ownerID: ["1118533176550240306"], //write your discord user id. example: ["id"] or ["id1","id2"]
 botInvite: "", //write your discord bot invite.
 supportServer: "", //write your discord bot support server invite.
-mongodbURL: "", //write your mongodb url.
-status: '❤️ codeshare.me',
+mongodbURL: "mongodb+srv://dendar:dendar@cluster0.fwxgz8v.mongodb.net/?retryWrites=true&w=majority", //write your mongodb url.
+status: '❤️ ',
 commandsDir: './commands', //Please don't touch
 language: "en", //en, tr, nl, pt, fr, ar, zh_TW, it, ja
 embedColor: "ffa954", //hex color code
