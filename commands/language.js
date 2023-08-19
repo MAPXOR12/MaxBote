@@ -28,7 +28,7 @@ module.exports = {
           .setCustomId('ar')
           .setStyle(ButtonStyle.Secondary)
           .setEmoji('🇸🇦'),
-
+        )
 
 
         
