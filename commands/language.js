@@ -13,31 +13,22 @@ module.exports = {
       const { EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js');
       let buttons = new ActionRowBuilder().addComponents(
         new ButtonBuilder()
-          .setLabel("Türkçe")
-          .setCustomId('tr')
+          .setLabel("Kurdish")
+          .setCustomId('Ku')
           .setStyle(ButtonStyle.Secondary)
-          .setEmoji('🇹🇷'), 
+          .setEmoji('1142204494977957979'), 
         new ButtonBuilder()
           .setLabel("English")
           .setCustomId('en')
           .setStyle(ButtonStyle.Secondary)
           .setEmoji('🇬🇧'),
-        new ButtonBuilder()
-          .setLabel("Nederlands")
-          .setCustomId('nl')
-          .setStyle(ButtonStyle.Secondary)
-          .setEmoji('🇳🇱'),
+   
         new ButtonBuilder()
           .setLabel("العربية")
           .setCustomId('ar')
           .setStyle(ButtonStyle.Secondary)
           .setEmoji('🇸🇦'),
-        new ButtonBuilder()
-          .setLabel("Français")
-          .setCustomId('fr')
-          .setStyle(ButtonStyle.Secondary)
-          .setEmoji('🇫🇷'),
-      )
+
 
       let buttons2 = new ActionRowBuilder().addComponents(
             new ButtonBuilder()
